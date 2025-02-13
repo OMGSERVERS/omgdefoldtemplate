@@ -19,9 +19,5 @@ To use this project as a template, follow the [Defold guide](https://defold.com/
 
 ### CTL
 
-- [OMGPROJECT ctl](https://github.com/OMGSERVERS/omgdefold/blob/main/omgprojectctl.sh): A script to build the project's
-  Docker image.
-- [OMGTOOL ctl](https://github.com/OMGSERVERS/omgdefold/blob/main/omgtoolctl.sh): A script for common development and
+- [OMGPROJECT ctl](https://github.com/OMGSERVERS/omgdefold/blob/main/omgprojectctl.sh): A script for common development and
   local testing operations.
-- [OMGSERVERS ctl](https://github.com/OMGSERVERS/omgdefold/blob/main/omgserversctl.sh): A script for performing
-  low-level operations on OMGSERVERS installations.
