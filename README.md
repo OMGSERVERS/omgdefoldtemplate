@@ -17,7 +17,10 @@ To use this project as a template, follow the [Defold guide](https://defold.com/
 - [Server Settings](https://github.com/OMGSERVERS/omgdefold/blob/main/server.settings): Contains separate settings for
   building a headless version of the game.
 
-### CTL
+### Getting Started with the Project
 
-- [OMGPROJECT ctl](https://github.com/OMGSERVERS/omgdefold/blob/main/omgprojectctl.sh): A script for common development and
-  local testing operations.
+1. Run `./omgprojectctl.sh build` to build the Docker container.
+1. Run `./omgserversctl.sh localtesting up` to start the local testing environment in Docker.
+1. Run `./omgserversctl.sh localtesting init` to initialize the project and create a developer account.
+1. Run `./omgserversctl.sh localtesting install` to install the game runtime locally.
+1. Open `game.project` in Defold and run the game.
